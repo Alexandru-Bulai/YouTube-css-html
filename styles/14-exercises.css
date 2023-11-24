@@ -1,0 +1,20 @@
+body {
+  height: 3000px;
+}
+
+
+.sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  width: 100px;
+  height: 100%;
+  right: 0px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+}
+

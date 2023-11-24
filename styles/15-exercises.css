@@ -1,0 +1,52 @@
+body {
+  height: 3000px;
+}
+
+.container {
+  width: 247px;
+  height: 294px;
+  background-color: grey;
+  position: fixed;
+  top : 10px;
+  left: 10px;
+}
+
+.picture {
+  height: 100%;
+  width: 100%;
+}
+
+.discount {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-button {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
